@@ -410,7 +410,7 @@ def DIAMOnD(G_original,seed_genes,max_number_of_added_nodes,alpha,outfile = None
  
     # 2. agglomeration algorithm. 
     added_nodes = diamond_iteration_of_first_X_nodes(G_original,
-                                                     seed_genes,
+                                                     disease_genes,
                                                      max_number_of_added_nodes,alpha)
     # 3. saving the results 
     with open(outfile,'w') as fout:

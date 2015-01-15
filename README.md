@@ -12,8 +12,8 @@ The DIAMOnD website can be found at:
 
 Instruction to use the source code:
 1. Download the code.
-2. Make sure to make the code executable by chmod +x DIAMOnD_v04.py
-3. Run the code (./DIAMOnD_v04.py in command line or “run DIAMOnD_v04.py" in ipython). This will bring up the correct usage of the code.
+2. Make sure to make the code executable by chmod +x DIAMOnD.py
+3. Run the code (./DIAMOnD.py in command line or “run DIAMOnD.py" in ipython). This will bring up the correct usage of the code.
 4. Run the code according the suggested usage and input files description(See below).
 
 # -------------------
@@ -22,8 +22,8 @@ Directory Example
 
 contains two input files:
 1. seed_genes.txt (list of genes associated with a phenotype of interest) 
-2. protein_protein_interaction_network.txt (The network. note that gene IDs should be consistent in the two input files)
+2. PPI.txt (Protein-protein interaction network. note that gene IDs should be consistent in the two input files)
 The following command will generate the first 100 DIAMOnD nodes and save them in a file)
-./DIAMOnD_v04.py protein_protein_interaction_network.txt seed_genes.txt 100 
+./DIAMOnD.py PPI.txt seed_genes.txt 100 
 
 

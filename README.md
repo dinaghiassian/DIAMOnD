@@ -8,7 +8,9 @@ DIAMOnD.py runs the DIAMOnD algorithm as described in
 
 by Susan Dina Ghiassian, Joerg Menche & Albert-Laszlo Barabasi
 
-Instruction:
+The DIAMOnD website can be found at: 
+
+Instruction to use the source code:
 1. Download the code.
 2. Make sure to make the code executable by chmod +x DIAMOnD_v04.py
 3. Run the code (./DIAMOnD_v04.py in command line or “run DIAMOnD_v04.py" in ipython). This will bring up the correct usage of the code.

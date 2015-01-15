@@ -13,7 +13,8 @@ Instruction:
 2. Make sure to make the code executable by chmod +x DIAMOnD_v04.py
 3. Run the code (./DIAMOnD_v04.py in command line or “run DIAMOnD_v04.py" in ipython). This will bring up the correct usage of the code.
 4. Run the code according the suggested usage and input files description(See below).
-#============================================================================================
+
+# -------------------
 
 Directory Example
 

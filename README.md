@@ -13,8 +13,8 @@ The DIAMOnD website can be found at:
 Instruction to use the source code:
 1. Download the code.
 2. Make sure to make the code executable by chmod +x DIAMOnD.py
-3. Run the code (./DIAMOnD.py in command line or “run DIAMOnD.py" in ipython). This will bring up the correct usage of the code.
-4. Run the code according the suggested usage and input files description(See below).
+3. To run make sure you are in the main directory where the code is and run the following
+python3 DIAMOnD.py network_file seed_file n alpha(optional) outfile_name (optional)
 
 # -------------------
 

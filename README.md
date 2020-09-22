@@ -23,7 +23,7 @@ Directory Example
 contains two input files:
 1. seed_genes.txt (list of genes associated with a phenotype of interest) 
 2. PPI.txt (Protein-protein interaction network. note that gene IDs should be consistent in the two input files)
-The following command will generate the first 100 DIAMOnD nodes and save them in a file)
-./DIAMOnD.py PPI.txt seed_genes.txt 100 
+The following command will generate the first 100 DIAMOnD nodes and save them in a file) </br>
+<em>python3 DIAMOnD.py Example/PPI.txt Example/seed_genes.txt 100</em>
 
 

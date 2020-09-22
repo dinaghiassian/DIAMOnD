@@ -14,7 +14,7 @@ Instruction to use the source code:
 1. Download the code.
 2. Make sure to make the code executable by chmod +x DIAMOnD.py
 3. To run make sure you are in the main directory where the code is and run the following.</br>
- <em>python3 DIAMOnD.py network_file seed_file n alpha(optional) outfile_name (optional)</em>
+ <em>python3 DIAMOnD.py  network_file seed_file  n  alpha(optional)  outfile_name (optional)</em>
 
 # -------------------
 
@@ -24,6 +24,6 @@ contains two input files:
 1. seed_genes.txt (list of genes associated with a phenotype of interest) 
 2. PPI.txt (Protein-protein interaction network. note that gene IDs should be consistent in the two input files)
 The following command will generate the first 100 DIAMOnD nodes and save them in a file) </br>
-<em>python3 DIAMOnD.py Example/PPI.txt Example/seed_genes.txt 100</em>
+<em>python3  DIAMOnD.py  Example/PPI.txt  Example/seed_genes.txt  100</em>
 
 
